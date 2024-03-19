@@ -1,6 +1,7 @@
 # Protein stability project  
 Author: Amish Mishra  
 Date: April 15, 2023  
+_Note: The directories are mostly empty to keep the size of the repo small. With access to the data and the notebooks, the directories can be repopulated on a local copy of the repo.
 
 ## Description
 In this project, we take the Rocklin synthetic protein designs and train machine learning models to classify a protein as stable or unstable. We do this using three approaches
