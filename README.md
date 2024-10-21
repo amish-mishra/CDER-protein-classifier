@@ -1,4 +1,4 @@
-# Protein stability project  
+# Learning Topological Features for Protein Stability Prediction
 Author: Amish Mishra  
 Date: April 15, 2023  
 _Note: The directories are mostly empty to keep the size of the repo small. With access to the data and the notebooks, the directories can be repopulated on a local copy of the repo._
