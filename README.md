@@ -56,6 +56,11 @@ To set up the environment and run the notebooks:
     ```
     Then open and run the notebooks in the order listed below.
 
+### Note
+Some of the directories don't have the files uploaded to them due to their size. Namely, `/protein_pdbs, /protein_pds, /cder_models, /classifiers`.
+
+
+
 ## Structure of directories and notebooks
 ### The Directories
 - `cder_feature_importances_dataframes`: stores the dataframes used to assess feature importance
@@ -71,14 +76,16 @@ To set up the environment and run the notebooks:
 
 ### The Notebooks
 The notebooks are meant to be run in the following order.
-1. `1make_pds.ipynb`: This notebook creates the persistence diagrams.
-2. `2make_main_df.ipynb`: This notebook creates the main dataframe with the stability, SME, and PDs data.
-3. `3analyze_protein_df.ipynb`: This notebook visualizes the spread of the stable and unstable proteins by protein design topology
-4. `4sme_ml.ipynb`: This notebook trains and tests an ML model based on the SME features
-5. `5cder-ml.ipynb`: This notebook trains and tests an ML model based on learned CDER coordinates on the PDs of the proteins
-6. `6sme-cder-ml.ipynb`: This notebook trains and tests and ML model based on the learned CDER coordinates on the PDs and the SME features
-7. `7make_feature_imp_df.ipynb`: This notebook creates a dataframe that stores the average feature importance for each SME feature for the SME-only ML classifier (for each protein design topology)
-8. `8analyze_performance.ipynb`: This notebook summarizes and compares the ML classifiers' performance that were trained on SME, CDER, and SME+CDER features. It also plots the feature importance.
-9. `9visualize_cder_correlations.ipynb`: This notebook analyzes the correlation between SME features and CDER features via plotting CDER coordinates and a scatterplot of correlations illustrating the most important SME features for the model trained on only SME features.
-10. `heeh_sme_cder_investigation.ipynb`: This notebook investigates which CDER feature(s) contribute to improved model performance when combined with SME features for the HEEH topology. Using the `cder2` kernel, it loads feature dataframes from the `/features_dataframes` directory and applies a forward-selection approach to identify which CDER features provide the most significant performance gains over the baseline SME-only model.
+1. `01make_pds.ipynb`: This notebook creates the persistence diagrams.
+2. `02make_main_df.ipynb`: This notebook creates the main dataframe with the stability, SME, and PDs data.
+3. `03analyze_protein_df.ipynb`: This notebook visualizes the spread of the stable and unstable proteins by protein design topology
+4. `04sme_ml.ipynb`: This notebook trains and tests an ML model based on the SME features
+5. `05cder-ml.ipynb`: This notebook trains and tests an ML model based on learned CDER coordinates on the PDs of the proteins
+6. `06sme-cder-ml.ipynb`: This notebook trains and tests and ML model based on the learned CDER coordinates on the PDs and the SME features
+7. `07make_feature_imp_df.ipynb`: This notebook creates a dataframe that stores the average feature importance for each SME feature for the SME-only ML classifier (for each protein design topology)
+8. `08heeh_sme_cder_investigation.ipynb`: This notebook investigates which CDER feature(s) contribute to improved model performance when combined with SME features for the HEEH topology. Using the `cder2` kernel, it loads feature dataframes from the `/features_dataframes` directory and applies a forward-selection approach to identify which CDER features provide the most significant performance gains over the baseline SME-only model.
+9. `09analyze_performance.ipynb`: This notebook summarizes and compares the ML classifiers' performance that were trained on SME, CDER, and SME+CDER features. It also plots the feature importance.
+10. `10visualize_cder_correlations.ipynb`: This notebook analyzes the correlation between SME features and CDER features via plotting CDER coordinates and a scatterplot of correlations illustrating the most important SME features for the model trained on only SME features.
 11. `hex_plot_example.ipynb`: This notebook generates a hexplot of the regions of difference in the persistence pairs of an example protein design topology.
+
+

@@ -1,0 +1,5 @@
+topology,train_accuracy,classifier_path,runtime
+HHH,1.0,classifiers/HHH_sme_rf_clf_gs_no_train_test_split.pickle,116.32709813117981
+EEHEE,1.0,classifiers/EEHEE_sme_rf_clf_gs_no_train_test_split.pickle,115.59752106666565
+HEEH,1.0,classifiers/HEEH_sme_rf_clf_gs_no_train_test_split.pickle,120.10874271392822
+EHEE,1.0,classifiers/EHEE_sme_rf_clf_gs_no_train_test_split.pickle,113.03186130523682
