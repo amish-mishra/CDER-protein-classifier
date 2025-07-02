@@ -5,7 +5,7 @@ _Note: The directories may be mostly empty to keep the size of the repo small. W
 
 
 ## Description
-In this project, we take the Rocklin synthetic protein designs and train machine learning models to classify a protein as stable or unstable. Using the Cover-Tree Differencing via Entropy Reduction (CDER) algorithm, we do this using three approaches
+In this project, we take the Rocklin synthetic protein designs and train machine learning models to classify a protein as stable or unstable. Using the [Cover-Tree Differencing via Entropy Reduction (CDER)](https://arxiv.org/abs/1702.07959) algorithm, we do this using three approaches
 1. Learn CDER coordinates on the persistence diagrams (PDs) corresponding to each protein and train an ML model based solely on this topological information.
 2. Use the subject matter expert (SME) features to train ML models
 3. Use CDER and SME together to train ML models
