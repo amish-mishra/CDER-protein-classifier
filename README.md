@@ -9,7 +9,7 @@
 
 ## 🧬 Project Overview
 
-This project investigates the use of **topological data analysis (TDA)** to predict **protein stability** from structural data. We work with synthetic protein designs from the [Rocklin dataset](https://www.nature.com/articles/s41586-017-0050-4), applying machine learning models to classify proteins as **stable** or **unstable** using features derived from:
+This project investigates the use of **topological data analysis (TDA)** to predict **protein stability** from structural data. We work with synthetic protein designs from the [Rocklin dataset](https://www.science.org/doi/10.1126/science.aan0693), applying machine learning models to classify proteins as **stable** or **unstable** using features derived from:
 
 1. **Persistence diagrams** processed via [Cover-tree Differencing via Entropy Reduction (CDER)](https://arxiv.org/abs/1702.07959),
 2. **Subject matter expert (SME) features**, and
