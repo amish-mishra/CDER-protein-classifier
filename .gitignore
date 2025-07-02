@@ -215,3 +215,6 @@ protein_pds.zip
 protein_pdbs.zip
 classifiers.zip
 features_dataframes.zip
+
+/perf_dataframes/HEEH_cv_aps_scores_*
+bonus_investigation.ipynb
